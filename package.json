@@ -1,0 +1,32 @@
+{
+  "name": "developer-profile-generator",
+  "version": "1.0.0",
+  "description": "Create a command-line application that dynamically generates a PDF profile from a GitHub username",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljdurante/Team-profile.git"
+  },
+  "keywords": [
+    "Developer",
+    "Profile",
+    "Generator",
+    "GitHub"
+  ],
+  "author": "LJ Durante",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ljdurante/Team-profile"
+  },
+  "homepage": "https://github.com/ljdurante/Team-profile",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "inquirer": "^7.1.0",
+    "path": "^0.12.7",
+    "puppeteer": "^2.0.0",
+    "util": "^0.12.1"
+  }
+}
